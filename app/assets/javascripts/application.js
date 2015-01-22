@@ -15,3 +15,4 @@
 //= require turbolinks
 //= require yeti/loader
 //= require yeti/bootswatch
+//= require extension

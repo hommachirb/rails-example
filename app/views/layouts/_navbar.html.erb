@@ -10,9 +10,9 @@
       <%= current_user.name %>
     <% end %>
   </li>
-  <li><%= link_to '', user_sign_out_path, method: :delete, class: "fa fa-sign-out",
-          id: "sign-out", "data-toggle" => "tooltip", "data-placement" => "bottom",
-          "data-original-title" => "Sign out" %>
+  <li><%= link_to '', user_sign_out_path, method: :delete,
+          class: "fa fa-sign-out tooltip-show", "data-toggle" => "tooltip",
+          "data-placement" => "bottom", "data-original-title" => "Sign out" %>
   </li>
 </ul>
 <% end %>
