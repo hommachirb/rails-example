@@ -45,3 +45,5 @@ end
 
 gem 'twitter-bootswatch-rails'
 gem 'twitter-bootswatch-rails-helpers'
+gem 'font-awesome-rails'
+gem 'gravatar_image_tag'
