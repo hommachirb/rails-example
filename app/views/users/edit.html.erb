@@ -1,6 +1,7 @@
 <%- model_class = User -%>
-<div class="page-header">
-  <h1><%=t '.title', :default => t('helpers.titles.edit', :model => model_class.model_name.human,
-                                   :default => "Edit #{model_class.model_name.human}") %></h1>
-</div>
+<%- content_for :sub_title do -%>
+  <%=t '.title', default: t('helpers.titles.edit', :model => model_class.model_name.human,
+                 default: "Edit #{model_class.model_name.human}") %>
+<%- end -%>
+
 <%= render :partial => 'form' %>
